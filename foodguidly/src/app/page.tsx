@@ -1,6 +1,8 @@
+"use client";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import BeforeFooter from "./components/BeforeFooter";
+import Head from "next/head";
 
 const Home: React.FC = () => {
   return (
@@ -9,6 +11,8 @@ const Home: React.FC = () => {
         paddingTop: 200,
       }}
     >
+      {" "}
+      <Head></Head>
       <main className="w-full flex justify-center bg-gray-100">
         <div className="max-w-5xl p-6 bg-white rounded-lg shadow-lg">
           <section className="mb-8">
