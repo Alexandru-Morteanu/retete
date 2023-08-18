@@ -31,11 +31,18 @@ const Navigation: React.FC = () => {
           zIndex: 100,
         }}
       >
-        <div className="nav px-5">
+        <div className=" nav px-5">
           <div className={`w-100 px-100 flex items-center justify-between`}>
             {isLarge ? (
               <>
-                <Image alt="Logo" src={logo} className="mx-2" />
+                <Image
+                  alt="Logo"
+                  src={logo}
+                  className="mx-2 my-3"
+                  style={{
+                    width: 150,
+                  }}
+                />
                 <div className="large-nav">
                   <Link
                     href="/"
@@ -136,7 +143,14 @@ const Navigation: React.FC = () => {
                     </>
                   )}
                 </div>
-                <Image alt="Logo" src={logo} className="mx-2" />
+                <Image
+                  alt="Logo"
+                  src={logo}
+                  className="mx-2 my-3"
+                  style={{
+                    width: 120,
+                  }}
+                />
                 <div
                   style={{
                     width: 50,

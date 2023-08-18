@@ -9,7 +9,7 @@ export default function Article() {
   return (
     <div
       style={{
-        paddingTop: 200,
+        paddingTop: 150,
       }}
     >
       <div className="w-full flex justify-center p-16">

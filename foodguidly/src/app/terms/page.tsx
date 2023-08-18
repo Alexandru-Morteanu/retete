@@ -6,7 +6,7 @@ export default function Terms() {
   return (
     <div
       style={{
-        paddingTop: 200,
+        paddingTop: 150,
         width: "100%",
       }}
     >

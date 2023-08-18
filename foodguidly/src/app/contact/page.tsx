@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div
       style={{
-        paddingTop: 200,
+        paddingTop: 150,
       }}
     >
       {" "}

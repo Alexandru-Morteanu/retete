@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div
       style={{
-        paddingTop: 200,
+        paddingTop: 150,
       }}
     >
       <div className="w-full flex justify-center bg-gray-100">

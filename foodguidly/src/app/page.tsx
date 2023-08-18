@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   return (
     <div
       style={{
-        paddingTop: 200,
+        paddingTop: 150,
       }}
     >
       {" "}
