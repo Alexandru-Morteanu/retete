@@ -12,7 +12,6 @@ const Home: React.FC = () => {
       }}
     >
       {" "}
-      <Head></Head>
       <main className="w-full flex justify-center bg-gray-100">
         <div className="max-w-5xl p-6 bg-white rounded-lg shadow-lg">
           <section className="mb-8">
