@@ -22,7 +22,7 @@ const Section1: React.FC = () => {
   return (
     <>
       <b
-        className="bg-green-300 text-xl"
+        className="bg-green-300 text-xl font-bold h-fit"
         dangerouslySetInnerHTML={{ __html: section.title }}
       ></b>{" "}
       <Image src={image} alt={section.title} />
