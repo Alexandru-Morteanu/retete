@@ -22,7 +22,7 @@ const Article: React.FC = () => {
             background: "green",
           }}
         >
-          ADS
+          AD
         </div>
       </article>
     </main>
