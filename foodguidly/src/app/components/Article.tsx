@@ -16,11 +16,8 @@ const Article: React.FC = () => {
           <Mainer />
         </div>
         <div
-          className="flex items-center justify-center"
+          className="ads flex items-center justify-center"
           style={{
-            paddingLeft: 45,
-            paddingRight: 15,
-            width: "33.3%",
             height: "100%",
             background: "green",
           }}

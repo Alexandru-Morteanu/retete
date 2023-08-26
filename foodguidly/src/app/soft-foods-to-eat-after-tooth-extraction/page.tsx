@@ -30,22 +30,6 @@ export default function Home() {
         </div>
         <BeforeFooter />
         <Footer />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "http://schema.org",
-              "@type": "Article",
-              mainEntityOfPage: {
-                "@type": "WebPage",
-                "@id":
-                  "https://retete.vercel.app/soft-foods-to-eat-after-tooth-extraction",
-              },
-              headline: "50 Soft Foods After Tooth Extraction",
-              datePublished: "2023-08-14T10:00:00Z",
-            }),
-          }}
-        />
       </div>
     </>
   );
