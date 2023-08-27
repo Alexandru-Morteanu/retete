@@ -17,7 +17,7 @@ export default function RootLayout({
         ></script>
         <meta
           httpEquiv="Content-Security-Policy"
-          content="script-src 'self' https://pagead2.googlesyndication.com"
+          content="script-src 'self' https://partner.googleadservices.com;"
         />
       </head>
       <body>{children}</body>
