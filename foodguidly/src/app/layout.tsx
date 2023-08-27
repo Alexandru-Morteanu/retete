@@ -18,7 +18,7 @@ export default function RootLayout({
         ></script>
         <meta
           httpEquiv="Content-Security-Policy"
-          content="script-src 'self' 'unsafe-eval' https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9343873586369843;"
+          content="script-src 'self' 'unsafe-eval' https://pagead2.googlesyndication.com;"
         />
       </head>
       <body>{children}</body>
