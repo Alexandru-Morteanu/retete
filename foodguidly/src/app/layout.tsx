@@ -16,10 +16,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
           defer
         ></script>
-        <meta
-          httpEquiv="Content-Security-Policy"
-          content="script-src 'self' 'unsafe-eval' https://pagead2.googlesyndication.com;"
-        />
       </head>
       <body>{children}</body>
     </html>
